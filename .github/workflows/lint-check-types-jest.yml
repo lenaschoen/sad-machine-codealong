@@ -13,3 +13,4 @@ jobs:
       - run: yarn --frozen-lockfile
       - run: yarn eslint .
       - run: yarn tsc
+      - run: yarn jest
